@@ -71,7 +71,7 @@ public class TestBase {
 			options.addArguments("--disable-browser-side-navigation" ); 
 			
 		
-			System.setProperty("webdriver.chrome.driver", "C://Users/ankit.deswal/Downloads/chromedriver/chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "C://Users/ankit.deswal/Downloads/chromedriver73/chromedriver.exe");	
 			driver = new ChromeDriver(options); 
 			
 			

@@ -65,7 +65,7 @@ public class FeePostingUploadandDownload extends TestBase  {
 		driver.switchTo().window(winHandleBefore);
 
 		String FileUploadmsg= driver.findElement(By.xpath("/html/body/section[1]/div/article/p")).getText();
-		FileUploadmsgtrim = FileUploadmsg.substring(0,33);
+		//FileUploadmsgtrim = FileUploadmsg.substring(0,33);
 		FileUploadmsgtrimID = FileUploadmsg.substring(47,FileUploadmsg.length());
 		System.out.print(FileUploadmsgtrimID);
 		driver.findElement(By.id("alertify-ok")).click();
